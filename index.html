@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Bright Future School</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+                        url("https://images.unsplash.com/photo-1562774053-701939374585");
+            background-size: cover;
+            background-position: center;
+            height: 500px;
+            color: white;
+        }
+
+        .hero-content {
+            padding-top: 150px;
+        }
+
+        .card {
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        footer {
+            background-color: #212529;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="#">BRIGHT FUTURE SCHOOL</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#courses">Courses</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#teachers">Teachers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<!-- Hero Section -->
+<section class="hero">
+    <div class="container text-center hero-content">
+        <h1 class="display-3 fw-bold">Welcome to Bright Future School</h1>
+
+        <p class="lead">
+            Education Today, Success Tomorrow
+        </p>
+
+        <a href="#about" class="btn btn-primary btn-lg">
+            Learn More
+        </a>
+    </div>
+</section>
+
+
+<!-- About Section -->
+<section id="about" class="py-5">
+    <div class="container text-center">
+
+        <h2 class="fw-bold mb-4">About Our School</h2>
+
+        <p class="text-muted">
+            Bright Future School is committed to providing quality education
+            and creating a positive learning environment for students.
+            Our goal is to develop students academically, socially and
+            creatively.
+        </p>
+
+        <div class="row mt-4">
+
+            <div class="col-md-4">
+                <div class="card p-4 shadow-sm">
+                    <h3>📚 Quality Education</h3>
+                    <p>
+                        We provide quality education with modern teaching methods.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card p-4 shadow-sm">
+                    <h3>👨‍🏫 Expert Teachers</h3>
+                    <p>
+                        Experienced and dedicated teachers guide our students.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card p-4 shadow-sm">
+                    <h3>🏆 Activities</h3>
+                    <p>
+                        Students participate in sports, cultural and academic activities.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- Courses Section -->
+<section id="courses" class="py-5 bg-light">
+
+    <div class="container text-center">
+
+        <h2 class="fw-bold mb-4">Our Classes</h2>
+
+        <div class="row">
+
+            <div class="col-md-4 mb-3">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h4>Primary Classes</h4>
+                        <p>Classes 1 to 5</p>
+                        <a href="#" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-3">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h4>Middle Classes</h4>
+                        <p>Classes 6 to 8</p>
+                        <a href="#" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-3">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h4>Senior Classes</h4>
+                        <p>Classes 9 to 12</p>
+                        <a href="#" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+<!-- Teachers Section -->
+<section id="teachers" class="py-5">
+
+    <div class="container text-center">
+
+        <h2 class="fw-bold mb-4">Our Teachers</h2>
+
+        <div class="row">
+
+            <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h4>Mr. Rahul Sharma</h4>
+                        <p>Mathematics Teacher</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h4>Mrs. Priya Singh</h4>
+                        <p>Science Teacher</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h4>Mr. Amit Verma</h4>
+                        <p>English Teacher</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- Contact Section -->
+<section id="contact" class="py-5 bg-light">
+
+    <div class="container">
+
+        <h2 class="text-center fw-bold mb-4">Contact Us</h2>
+
+        <div class="row justify-content-center">
+
+            <div class="col-md-6">
+
+                <form>
+
+                    <div class="mb-3">
+                        <label class="form-label">Name</label>
+                        <input type="text" class="form-control"
+                               placeholder="Enter your name">
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Email</label>
+                        <input type="email" class="form-control"
+                               placeholder="Enter your email">
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Message</label>
+                        <textarea class="form-control" rows="4"
+                                  placeholder="Enter your message"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">
+                        Send Message
+                    </button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- Footer -->
+<footer class="py-4 text-center">
+
+    <div class="container">
+
+        <h5>Bright Future School</h5>
+
+        <p class="mb-1">
+            Education Today, Success Tomorrow
+        </p>
+
+        <p class="mb-0">
+            © 2026 Bright Future School. All Rights Reserved.
+        </p>
+
+    </div>
+
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
